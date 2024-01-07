@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f7cf30;
+    color: #4e4214;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#root {
+    width: 420px;
+    margin: 20px auto;
+    padding: 10px 25px;
+}
+
+.search__wrap {
+    width: 350px;
+    height: 45px;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+
+span {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    cursor: pointer;
+}
+
+.filter {
+    width: 350px;
+    background-color: #fff;
+    color: #9b8836;
+}
+
+.filter__item {
+    margin-top: 5px;
+    padding: 10px 20px;
+}
+
+.filter__item--select {
+    color: #4e4214;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root">
+        <!-- <div class="search">
+            <h2>Волосатість червця бджоли</h2>
+            <div class="search__wrap"><span>&#9660;</span></div>
+        </div> -->
+        <!-- <div class="filter">
+            <div class="filter__item">Велика індійська бджола</div>
+            <div class="filter__item">Медоносна бджола</div>
+            <div class="filter__item">Індійська бджола</div>
+            <div class="filter__item">Арликова бджола</div>
+        </div> -->
+        
+    </div>
+    <script src="script.js"></script>
+    <script>
+        const obj = {
+            wrapper: root,
+            header: 'Волосатість червця бджоли',
+            filter_elem: [
+                {title: "Велика індійська бджола", status: false},
+                {title: "Медоносна бджола", status: false},
+                {title: "Індійська бджола", status: false},
+                {title: "Арликова бджола", status: false}
+            ]
+        }
+        new Filter(obj).init();
+    </script>
+</body>
+</html>
